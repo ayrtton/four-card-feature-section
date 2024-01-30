@@ -5,6 +5,46 @@
   box-sizing: border-box;
 }
 
+@media (min-width: 2500px) {
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 2500px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 2000px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 1500px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1250px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.75rem;
+  }
+}
 body {
   background-color: hsl(0, 0%, 98%);
   font-family: "Poppins", sans-serif;
@@ -19,6 +59,20 @@ main #header {
   justify-content: center;
   flex-direction: column;
   height: 35%;
+  border: 1px solid black;
+}
+main #header h1 {
+  color: hsl(234, 12%, 34%);
+}
+main #header h1 span {
+  font-weight: 200;
+  display: block;
+}
+main #header p {
+  width: 40%;
+  text-align: center;
+  color: hsl(229, 6%, 66%);
+  margin-top: 1.5vh;
 }
 main #cards {
   display: flex;

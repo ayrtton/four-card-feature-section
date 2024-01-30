@@ -5,3 +5,13 @@
     flex-direction: $flex-direction;
     height: $height;
 }
+
+@mixin font_sizes($size_01, $size_02) {
+    h1 {
+        font-size: $size_01;
+    }
+
+    p {
+        font-size: $size_02;
+    }
+}
