@@ -8,4 +8,33 @@
 body {
   background-color: hsl(0, 0%, 98%);
   font-family: "Poppins", sans-serif;
+}
+
+main {
+  height: 92vh;
+}
+main #header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 35%;
+}
+main #cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 65%;
+}
+main #cards div[id^=column] {
+  height: 100%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 8vh;
 }/*# sourceMappingURL=main.css.map */

@@ -1,9 +1,11 @@
 function Cards() {
     return (
         <main>
-            <h1>Reliable, efficient delivery <br/> Powered by Technology</h1>
-            <p>Our Artificial Intelligence powered tools use millions of project data points 
-            to ensure that your project is successful</p>
+            <div id="header">
+                <h1>Reliable, efficient delivery Powered by Technology</h1>
+                <p>Our Artificial Intelligence powered tools use millions of project data points 
+                to ensure that your project is successful</p>
+            </div>
             <div id="cards">
                 <div id="column-1">
                     <div className="card">

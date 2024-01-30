@@ -1,6 +1,26 @@
-@import './config';
+@import './config', './mixins';
 
 body {
     background-color: $very_light_gray;
     font-family: 'Poppins', sans-serif;
+}
+
+main {
+    height: 92vh;
+
+    #header {
+        @include flexbox(35%);
+    }
+
+    #cards {
+        @include flexbox(65%, row);
+
+        div[id^="column"] {
+            height: 100%;
+        }
+    }
+}
+
+footer {
+    @include flexbox(8vh);
 }
