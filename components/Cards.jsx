@@ -1,3 +1,8 @@
+import calculator from "../assets/images/icon-calculator.svg";
+import karma from "../assets/images/icon-karma.svg";
+import supervisor from "../assets/images/icon-supervisor.svg";
+import team_builder from "../assets/images/icon-team-builder.svg";
+
 function Cards() {
     return (
         <main>
@@ -8,25 +13,29 @@ function Cards() {
             </div>
             <div id="cards">
                 <div id="column-1">
-                    <div className="card">
+                    <div id="card-1">
                         <h2>Supervisor</h2>
-                        Monitors activity to identify project roadblocks
+                        <p>Monitors activity to identify project roadblocks</p>
+                        <img src={supervisor} alt="supervisor" srcSet="" />
                     </div>
                 </div>
                 <div id="column-2">
-                    <div className="card">
+                    <div id="card-2">
                         <h2>Team Builder</h2>
-                        Scans our talent network to create the optimal team for your project
+                        <p>Scans our talent network to create the optimal team for your project</p>
+                        <img src={team_builder} alt="team_builder" srcSet="" />
                     </div>
-                    <div className="card">
+                    <div id="card-3">
                         <h2>Karma</h2>
-                        Regularly evaluates our talent to ensure quality
+                        <p>Regularly evaluates our talent to ensure quality</p>
+                        <img src={karma} alt="karma" srcSet="" />
                     </div>
                 </div>
                 <div id="column-3">
-                    <div className="card">
+                    <div id="card-4">
                         <h2>Calculator</h2>
-                        Uses data from past projects to provide better delivery estimates
+                        <p>Uses data from past projects to provide better delivery estimates</p>
+                        <img src={calculator} alt="calculator" srcSet="" />
                     </div>
                 </div>
             </div>

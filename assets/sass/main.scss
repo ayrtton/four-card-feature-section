@@ -10,7 +10,6 @@ main {
 
     #header {
         @include flexbox(35%);
-        border: 1px solid black;
 
         h1 {
             color: $very_dark_blue;
@@ -31,9 +30,40 @@ main {
 
     #cards {
         @include flexbox(65%, row);
+        gap: 2vw;
+        width: 75%;
+        margin: auto;
 
         div[id^="column"] {
-            height: 100%;
+            @include flexbox(100%);
+            justify-content: space-around;
+            width: 30%;
+        }
+
+        div[id^="card"] {
+            @include flexbox(47%);
+            background-color: $white;
+            width: 100%;
+            box-shadow: 0 .5vw 1vw -.5vw $cyan;
+            border-radius: .5vw;
+        }
+
+        #card {
+            &-1 {
+                border-top: .7vh solid $grayish_blue;
+            }
+            
+            &-2 {
+                border-top: .7vh solid $red;
+            }
+            
+            &-3 {
+                border-top: .7vh solid $orange;
+            }
+
+            &-4 {
+                border-top: .7vh solid $blue;
+            }
         }
     }
 }
