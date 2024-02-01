@@ -16,26 +16,34 @@ function Cards() {
                     <div id="card-1">
                         <h2>Supervisor</h2>
                         <p>Monitors activity to identify project roadblocks</p>
-                        <img src={supervisor} alt="supervisor" srcSet="" />
+                        <div className="icon">
+                            <img src={supervisor} alt="supervisor" srcSet="" />
+                        </div>
                     </div>
                 </div>
                 <div id="column-2">
                     <div id="card-2">
                         <h2>Team Builder</h2>
                         <p>Scans our talent network to create the optimal team for your project</p>
-                        <img src={team_builder} alt="team_builder" srcSet="" />
+                        <div className="icon">
+                            <img src={team_builder} alt="team_builder" srcSet="" />
+                        </div>
                     </div>
                     <div id="card-3">
                         <h2>Karma</h2>
                         <p>Regularly evaluates our talent to ensure quality</p>
-                        <img src={karma} alt="karma" srcSet="" />
+                        <div className="icon">
+                            <img src={karma} alt="karma" srcSet="" />
+                        </div>
                     </div>
                 </div>
                 <div id="column-3">
                     <div id="card-4">
                         <h2>Calculator</h2>
                         <p>Uses data from past projects to provide better delivery estimates</p>
-                        <img src={calculator} alt="calculator" srcSet="" />
+                        <div className="icon">
+                            <img src={calculator} alt="calculator" srcSet="" />
+                        </div>
                     </div>
                 </div>
             </div>

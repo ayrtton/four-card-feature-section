@@ -6,7 +6,8 @@ body {
 }
 
 main {
-    height: 92vh;
+    height: 100vh;
+    padding-bottom: 5vh;
 
     #header {
         @include flexbox(35%);
@@ -46,6 +47,18 @@ main {
             width: 100%;
             box-shadow: 0 .5vw 1vw -.5vw $cyan;
             border-radius: .5vw;
+
+            h2 {
+                width: 100%;
+            }
+
+            .icon {
+                width: 100%;
+                
+                img {
+                    float: right;
+                }
+            }
         }
 
         #card {
@@ -69,5 +82,19 @@ main {
 }
 
 footer {
-    @include flexbox(8vh);
+    @include flexbox(10vh);
+    text-align: center;
+    color: $grayish_blue;
+
+    a {
+        text-decoration: none;
+        transition: .5s;
+        color: inherit;
+        color: $very_dark_blue;
+
+        &:hover {
+            color: $blue;
+            text-decoration: underline;
+        }
+    }
 }
