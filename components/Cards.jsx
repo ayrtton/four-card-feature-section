@@ -14,8 +14,10 @@ function Cards() {
             <div id="cards">
                 <div id="column-1">
                     <div id="card-1">
-                        <h2>Supervisor</h2>
-                        <p>Monitors activity to identify project roadblocks</p>
+                        <div className="text">
+                            <h2>Supervisor</h2>
+                            <p>Monitors activity to identify project roadblocks</p>
+                        </div>
                         <div className="icon">
                             <img src={supervisor} alt="supervisor" srcSet="" />
                         </div>
@@ -23,15 +25,19 @@ function Cards() {
                 </div>
                 <div id="column-2">
                     <div id="card-2">
-                        <h2>Team Builder</h2>
-                        <p>Scans our talent network to create the optimal team for your project</p>
+                        <div className="text">
+                            <h2>Team Builder</h2>
+                            <p>Scans our talent network to create the optimal team for your project</p>
+                        </div>
                         <div className="icon">
                             <img src={team_builder} alt="team_builder" srcSet="" />
                         </div>
                     </div>
                     <div id="card-3">
-                        <h2>Karma</h2>
-                        <p>Regularly evaluates our talent to ensure quality</p>
+                        <div className="text">
+                            <h2>Karma</h2>
+                            <p>Regularly evaluates our talent to ensure quality</p>
+                        </div>
                         <div className="icon">
                             <img src={karma} alt="karma" srcSet="" />
                         </div>
@@ -39,8 +45,10 @@ function Cards() {
                 </div>
                 <div id="column-3">
                     <div id="card-4">
-                        <h2>Calculator</h2>
-                        <p>Uses data from past projects to provide better delivery estimates</p>
+                        <div className="text">
+                            <h2>Calculator</h2>
+                            <p>Uses data from past projects to provide better delivery estimates</p>
+                        </div>
                         <div className="icon">
                             <img src={calculator} alt="calculator" srcSet="" />
                         </div>
