@@ -1,21 +1,21 @@
 @import './mixins';
 
 @media (min-width: 2500px) {
-    @include font_sizes(4rem, 2.5rem, 1.7rem);
+    @include font_sizes(3.8rem, 2.3rem, 1.6rem);
 }
 
 @media (max-width: 2500px) {
-    @include font_sizes(3.2rem, 2.1rem, 1.4rem);
+    @include font_sizes(3rem, 1.8rem, 1.3rem);
 }
 
 @media (max-width: 2000px) {
-    @include font_sizes(2.5rem, 1.8rem, 1.2rem);
+    @include font_sizes(2.3rem, 1.3rem, 1rem);
 }
 
 @media (max-width: 1500px) {
-    @include font_sizes(2rem, 1.4rem, .9rem);
+    @include font_sizes(1.8rem, 1.1rem, .8rem);
 }
 
 @media (max-width: 1250px) {
-    @include font_sizes(1.5rem, 1.5rem, .75rem);
+    @include font_sizes(1.3rem, .9rem, .65rem);
 }

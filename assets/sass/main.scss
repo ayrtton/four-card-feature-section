@@ -25,7 +25,7 @@ main {
         }
 
         p {
-            width: 40%;
+            width: 35%;
             text-align: center;
             margin-top: 1.5vh;
         }
@@ -41,6 +41,10 @@ main {
             @include flexbox(100%);
             justify-content: space-around;
             width: 30%;
+        }
+
+        #column-2 {
+            gap: 3.5vh;
         }
 
         div[id^="card"] {

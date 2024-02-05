@@ -7,57 +7,57 @@
 
 @media (min-width: 2500px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.8rem;
   }
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   p {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 }
 @media (max-width: 2500px) {
   h1 {
-    font-size: 3.2rem;
-  }
-  h2 {
-    font-size: 2.1rem;
-  }
-  p {
-    font-size: 1.4rem;
-  }
-}
-@media (max-width: 2000px) {
-  h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   h2 {
     font-size: 1.8rem;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 2000px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 1rem;
   }
 }
 @media (max-width: 1500px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
   p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 1250px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 0.9rem;
   }
   p {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
 }
 body {
@@ -85,7 +85,7 @@ main #header h1 span {
   display: block;
 }
 main #header p {
-  width: 40%;
+  width: 35%;
   text-align: center;
   margin-top: 1.5vh;
 }
@@ -107,6 +107,9 @@ main #cards div[id^=column] {
   height: 100%;
   justify-content: space-around;
   width: 30%;
+}
+main #cards #column-2 {
+  gap: 3.5vh;
 }
 main #cards div[id^=card] {
   display: flex;
