@@ -19,3 +19,40 @@
 @media (max-width: 1250px) {
     @include font_sizes(1.3rem, .9rem, .65rem);
 }
+
+@media (max-width: 768px) {
+    body {
+        main {
+            height: auto;
+
+            #header {
+                max-width: 375px;
+                margin: auto;
+                height: 25vh;
+
+                p {
+                    width: 85%;
+                }
+            }
+
+            #cards {
+                flex-direction: column;
+                width: 375px;
+                padding: 0 30px;
+                gap: 2vh;
+
+                div[id^="column"] {
+                    width: 100%;
+                }
+
+                #column-2 {
+                    gap: inherit;
+                }
+
+                div[id^="card"] {
+                    height: 18vh;
+                }
+            }
+        }
+    }
+}

@@ -60,6 +60,34 @@
     font-size: 0.65rem;
   }
 }
+@media (max-width: 768px) {
+  body main {
+    height: auto;
+  }
+  body main #header {
+    max-width: 375px;
+    margin: auto;
+    height: 25vh;
+  }
+  body main #header p {
+    width: 85%;
+  }
+  body main #cards {
+    flex-direction: column;
+    width: 375px;
+    padding: 0 30px;
+    gap: 2vh;
+  }
+  body main #cards div[id^=column] {
+    width: 100%;
+  }
+  body main #cards #column-2 {
+    gap: inherit;
+  }
+  body main #cards div[id^=card] {
+    height: 18vh;
+  }
+}
 body {
   background-color: hsl(0, 0%, 98%);
   font-family: "Poppins", sans-serif;
