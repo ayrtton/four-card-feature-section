@@ -60,14 +60,23 @@
     font-size: 0.65rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 834px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
   body main {
     height: auto;
   }
   body main #header {
     max-width: 375px;
     margin: auto;
-    height: 25vh;
+    height: 250px;
   }
   body main #header p {
     width: 85%;
@@ -76,7 +85,7 @@
     flex-direction: column;
     width: 375px;
     padding: 0 30px;
-    gap: 2vh;
+    gap: 20px;
   }
   body main #cards div[id^=column] {
     width: 100%;
@@ -85,7 +94,18 @@
     gap: inherit;
   }
   body main #cards div[id^=card] {
-    height: 18vh;
+    height: 170px;
+    border-radius: 7px;
+    padding: 20px;
+  }
+  body main #cards div[id^=card] .icon {
+    height: 35%;
+  }
+  body footer {
+    display: none;
+    bottom: 0;
+    width: 100%;
+    height: 7vh;
   }
 }
 body {
@@ -152,7 +172,7 @@ main #cards div[id^=card] {
   border-radius: 0.5vw;
   padding: 1.7vw;
 }
-main #cards div[id^=card] h2, main #cards div[id^=card] p, main #cards div[id^=card] .icon {
+main #cards div[id^=card] .text, main #cards div[id^=card] .icon {
   width: 100%;
 }
 main #cards div[id^=card] h2 {
